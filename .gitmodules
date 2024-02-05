@@ -1,0 +1,9 @@
+[submodule "Temporal-Difference"]
+	path = Temporal-Difference
+	url = https://github.com/TheUndercover01/Temporal-Difference
+[submodule "MonteCarlo"]
+	path = MonteCarlo
+	url = https://github.com/TheUndercover01/MonteCarlo
+[submodule "n-Step-Bootstrapping"]
+	path = n-Step-Bootstrapping
+	url = https://github.com/TheUndercover01/n-Step-Bootstrapping
