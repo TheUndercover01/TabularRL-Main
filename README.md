@@ -69,7 +69,7 @@ Example : (0, 0.53, -0.84, -0.84) - this state represents the rotation of 0&deg;
 
 ## Exploring PyBullet Dynamics
 
-- **Initialization**: Upon initialization, the environment is set up, including the connection to the PyBullet physics engine and the loading of the robot's URDF file. Parameters like gravity and initial positions are configured to establish a realistic simulation environment.
+- **Initialization**: Upon initialization, the environment is set up, including the connection to the PyBullet physics engine and the loading of the robot's URDF file. Parameters like gravity and initial positions are configured to establish a realistic simulation environment. `You can choose to start from a completely difference position/state, just add the new state as the 2nd parameter while Initialization of the environment`
   ```python
   if GUI:
       physicsClient = p.connect(p.GUI)
