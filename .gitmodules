@@ -1,6 +1,3 @@
-[submodule "Temporal-Difference"]
-	path = Temporal-Difference
-	url = https://github.com/TheUndercover01/Temporal-Difference
 [submodule "MonteCarlo"]
 	path = MonteCarlo
 	url = https://github.com/TheUndercover01/MonteCarlo
