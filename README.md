@@ -2,6 +2,9 @@
 
 This repository serves as the primary repository housing three submodules: Monte Carlo, Temporal Difference, and n-step Bootstrapping (Links Above).
 
+## Results
+
+https://github.com/TheUndercover01/TabularRL-Main/assets/141422918/05a18cc4-e1c0-46b3-8900-96df2a6a3e33
 
 ## Project Overview
 
@@ -93,9 +96,7 @@ Example : (0, 0.53, -0.84, -0.84) - this state represents the rotation of 0&deg;
   for i in range(100):
     p.stepSimulation()
 
-## Results
 
-https://github.com/TheUndercover01/TabularRL-Main/assets/141422918/05a18cc4-e1c0-46b3-8900-96df2a6a3e33
 
 ## More on Repository and Submodules
 
