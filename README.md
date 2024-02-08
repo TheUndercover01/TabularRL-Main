@@ -2,7 +2,13 @@
 
 This repository serves as the primary repository housing three submodules: Monte Carlo, Temporal Difference, and n-step Bootstrapping (Links Above).
 
+
 ## Results
+
+Start State            |  Terminal State
+:-------------------------:|:-------------------------:
+<img src="https://github.com/TheUndercover01/TabularRL-Main/assets/141422918/c6074b62-28f2-4f4a-9b65-2855ff9f479d" width="400" height="400">   |  <img src="https://github.com/TheUndercover01/TabularRL-Main/assets/141422918/e541cd49-2a01-498e-970a-d8e1321e6429" width="400" height="400">
+
 
 https://github.com/TheUndercover01/TabularRL-Main/assets/141422918/05a18cc4-e1c0-46b3-8900-96df2a6a3e33
 
