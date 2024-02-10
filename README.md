@@ -171,12 +171,12 @@ The purpose of these notes is to document observations and experiments conducted
 - It was discovered that adjusting the joint's origin helps achieve more accurate positioning.
 - Shifting the origin of the joint enables more precise control over movements, ensuring actions are relative to the inertial frame.
 
-- The key insight is that all motions within the bot's environment are relative to its initial position. This means that simply adding or subtracting values from the current position may not yield the expected results, especially when the bot's position has changed from its initial state.
+- The key insight is that all motions within the bot's environment are relative to its initial position of the joint. This means that simply adding or subtracting values from the current position may not yield the expected results, especially when the bot's position has changed from its initial state.
 
 #### Example Scenario (Slider Joint):
-1. Suppose the current position of the slider joint is -0.32.
-2. If we intend to move down by 0.21 units, intuitively we might expect adding 0.21 to the current position (-0.32 + 0.21 = -0.11) would achieve this.
-3. However, if the current position is actually -0.11, adding 0.21 to it would result in 0.10, not the expected position of 0.32.
+1. Suppose the current position of the slider joint is 0.32 w.r.t world origin.
+2. If we intend to move down by 0.21 units, intuitively we might expect subtract 0.21 (subtract cuz the axis point upward, just for the simplicity of this example) to the current position (0.32 - 0.21 = 0.11) would achieve this.
+3. However, if the current position is actually 0.11, adding 0.21 to it would result in 0.32 motion in positive direction w.r.t joint origin, which means it will go up by 0.32 w.r.t joint, so its current position will be 0.32+0.32 = 0.64 w.r.t world origin. Not the expected 0.32 w.r.t world frame.
 
 ### Implementation Example (Slider Joint):
 1. If the initial position of the joint is 0.32, and the current position is -0.11.
